@@ -225,10 +225,8 @@ export default function Home() {
   preload="auto"
 />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end">
-                    <div className="p-4 text-white">
-                      <div className="text-sm font-medium">Chest X-ray</div>
-                      <div className="text-xs opacity-80">High-resolution scan</div>
-                    </div>
+                  <video src="/videoplayback.mp4" autoPlay loop className="w-full h-full" />
+
                   </div>
                 </div>
                 <div className="grid grid-cols-2 gap-4">
