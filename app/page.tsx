@@ -225,7 +225,14 @@ export default function Home() {
   preload="auto"
 />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end">
-                  <video src="/videoplayback.mp4" autoPlay loop className="w-full h-full" />
+                  <video
+  src="/videoplayback.mp4"
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="w-full h-full object-cover"
+/>
 
                   </div>
                 </div>
