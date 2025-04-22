@@ -226,7 +226,7 @@ export default function Home() {
 />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end">
                   <video
-  src="/videoplayback.mp4"
+  src="\video.mp4"
   autoPlay
   muted
   loop
